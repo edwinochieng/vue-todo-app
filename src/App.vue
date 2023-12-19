@@ -1,4 +1,12 @@
+<script setup>
+import Input from './components/Input.vue';
 
+
+</script>
 <template>
-  <div><h1 class="text-red-500 text-3xl text-center">Hello world!</h1></div>
+  <div class="max-w-[600px] mx-auto w-full">
+    <div class="flex flex-col mt-20">
+      <Input/>
+    </div>
+  </div>
 </template>
